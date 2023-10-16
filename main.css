@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0rem 2rem 2rem 35rem;
+    height: auto;
+    width: 300px;
+    display: block;
+    justify-content:center;
+    background-color: rgb(77, 218, 77);
+}
+
+.bill, .cashGiven, .check{
+    margin: 1rem 1rem 1rem 0rem;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+th, td {
+    background-color: #96D4D4;
+  }
