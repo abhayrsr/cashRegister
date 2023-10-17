@@ -13,7 +13,7 @@
     background-color: rgb(77, 218, 77);
 }
 
-.bill, .cashGiven, .check{
+.bill, .cash, .button{
     margin: 1rem 1rem 1rem 0rem;
 }
 table, th, td {
@@ -23,3 +23,8 @@ table, th, td {
 th, td {
     background-color: #96D4D4;
   }
+
+.noOfNotes{
+    height: auto;
+    width:20px;
+}

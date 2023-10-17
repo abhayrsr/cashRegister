@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
     <link rel="stylesheet" href="main.css"/>
-    <script src="app.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,67 +13,50 @@
 
         <div class="bill">
             <h3>Bill Amount:</h3>
-            <input type="text"/>
+            <input type="text" class="billAmount"/>
         </div>
-        <div class="cashGiven">
+        <div class="cash">
             <h3>Cash Given:</h3>
-            <input type="text"/>
+            <input type="text" class="cashGiven"/>
         </div>
 
-        <div class="check">
-            <button>Check</button>
+        <div class="button">
+            <button class="check">Check</button>
         </div>
+
+        <p class="errorMessage"></p>
 
         <div class="return">
             <h3>Return Change:</h3>
         </div>
 
         <div class="table">
-            <table>
+            <table class="table-change">
                 <tr>
-                    <th>No. of Notes</th>
+                    <th>No. of notes</th>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                    <td class="noOfNotes"></td>
+                </tr>
+                <tr>
                     <th>Note</th>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>2000</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>500</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>100</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>20</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>10</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>5</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>1</td>
                 </tr>
             </table>
-
         </div>
 
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
